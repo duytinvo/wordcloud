@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 style='color:blue'>{% block title %} Welcome to WCB - Machine Learning and Analysis Team {% endblock %}</h1>
+<!--<h2 style='color:blue'>This is an example of constructing a site that generates Word Clouds given texts.</h2>-->
+
+
+<form method="get" action="/inference">
+    <label for="desc">This is an example of constructing a site that generates Word Clouds given texts.</label>
+    <button type="submit">Generate Now</button>
+</form>
+    <p>{{ post }}</p>
+
+{% endblock %}
