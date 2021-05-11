@@ -1,7 +1,9 @@
-click==8.0.0
+click==7.1.2
 cycler==0.10.0
 Flask==1.1.2
 Flask-Cors==3.0.10
+gunicorn==20.1.0
+h11==0.12.0
 itsdangerous==2.0.0
 Jinja2==3.0.0
 joblib==1.0.1

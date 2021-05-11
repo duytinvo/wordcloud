@@ -177,5 +177,10 @@ if __name__ == '__main__':
     kill -9 $(lsof -i:5000 -t) 2> /dev/null
     
     """
-    app.run(debug=True)
-    # app.run(host='0.0.0.0', debug=True)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
+    # import uvicorn
+    # if "serve" in sys.argv:
+    #     port = int(os.environ.get("PORT", 8008))
+    #     print("TEST: ", port)
+    #     uvicorn.run(app, host = "0.0.0.0", port = port)
